@@ -1,0 +1,315 @@
+html,body{
+    margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+.jumbotron-header {
+	background: url("maxresdefault.jpg");
+	background-size: cover;
+	height: calc(100vh);
+	border-radius: 0;
+} /* Jumbotron je bootstrap opcija za postavljanje hero image-a. Ovde se linkuje slika */
+.bez{
+    background: url("white.jpg");
+	background-size: cover;
+}
+.carousel-item img{
+    margin-top: 45px;
+    height: 500px;
+    width: 100%;
+}
+
+.navFix {
+	position:fixed;
+	top:0;
+	background:transparent;
+	width:100%;
+	height:50px;
+} 
+.navFix{
+    background-color: black !important;
+    height: auto;
+} 
+.navbar-hamburger {
+	font-size:25px;
+	font-weight:600;
+	color: orangered;
+	text-transform:uppercase;
+	padding-left:10px;
+}
+.navbar-hamburger:hover{
+	text-decoration:none;
+	color:orangered;
+}
+.header-h3 {
+    color: white;
+    text-align: center;
+    margin-top: 13vw;
+    font-size: 32px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  } /* Formatiranje teksta h3 */
+.header-h1 {
+    color: white;
+    text-align: center;
+    margin: 2vw 0;
+    text-transform: uppercase;
+    font-size: 66px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+} /* Formatiranje teksta h1 */
+.header-h11 {
+    color: black;
+    text-align: center;
+    margin: 2vw 0;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} /* Formatiranje teksta h1 */
+.button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none !important;
+  } /* Ghost button */
+  
+.button:hover {
+    color: black;
+    background-color: orange;
+    text-decoration: none !important;
+  } /* Ghost Button nakon prelaska kursora */
+  .services-h1 {
+	font-size:60px;
+	color:rgb(34,34,34);
+	line-height:1.25;
+	text-align:left;
+} /* Osobine teksta koji spada pod naslov. */
+.services-description {
+	font-size:18px;
+	color:rgb(119,119,119);
+	line-height:1.333;
+	text-align:left;
+	max-width:555px;
+} /* Osobine paragrafa unutar elementa. */
+.first-part {
+	margin-top:5vw;
+	margin-bottom:8vw;
+	margin-left:3vw;
+	margin-right:3vw;
+} /* Pozicioniranje elemenata u prvom delu - vw = viewport pozicija. */
+.second-part {
+	margin-bottom:8vw;
+	margin-left:3vw;
+	margin-right:3vw;
+	padding-top:5vw;
+	padding-bottom:5vw;
+} /* Pozicioniranje elemenata u drugom delu - vw = viewport pozicija. */
+.btn {
+	text-decoration:none;
+}
+.mnsl{
+    margin: 0%;
+    padding: 0%;
+    width: 80px;
+}
+.link{
+	color: orange;
+	font-size: 18px;
+	line-height: 2.278;
+    margin: 0px 20px;
+    padding: 3px;
+}
+.link:hover {
+	color: white;
+    text-decoration: none;
+    text-shadow: 1px white;
+}
+
+.slika{
+    margin: 0% 25%;
+}
+.slika img{
+    margin: auto;
+    padding: 5px;
+    width: 500px;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cr{
+    color: white;
+}
+.container{
+    padding: 10px;
+    margin:auto;
+}
+.nas{
+    width: 100%;
+    background-color: white;
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+}
+.dug{
+    padding: 5px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    text-align: center;
+    align-items: center;
+}
+.dug p{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.dug a{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid grey;
+    border-radius: 10%;
+    background-color: grey;
+}
+.dug a:hover{
+    padding: 10px;
+    background-color: white;
+    color: orangered;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+.ft{
+    
+    width: 100%;
+    background-color: black;
+    color: orangered;
+    text-align: center;
+}
+.logi{
+    margin: 10px;
+    width: 50px;
+
+}
+.tek{
+    background-color: white;
+    margin-top: 45px;
+    margin-right: 20%;
+    margin-left: 20%;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+.tek:hover{
+    border-radius: 0%;
+    transition: 0.9s ease;
+    transform: rotate(360deg);
+}
+.nass{
+    text-align: center;
+    color: orangered;
+}
+.tek p{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+}
+.trener{
+    
+    margin-top: 45px;
+    margin-left:10%;
+    margin-right: 10%;
+
+}
+.ha3{
+    opacity: 80%;
+}
+.dugg{
+    text-align: center;
+}
+.dugg a{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.dugg a:hover{
+    background-color: white;
+    color: orangered;
+}
+.dugg input{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.dugg input:hover{
+    background-color: white;
+    color: orangered;
+    border-radius: 10px;
+}
+
+.fora{
+    background-color: rgb(255, 94, 0);
+    color: black;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.ftt{
+    width: 100%;
+    background-color: white;
+    color: orangered;
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+}
+#polje, #polje1, #polje2, #polje3{
+    opacity: 60%;
+    margin-left:10%;
+    margin-right: 10%;
+
+}
+.trener a{
+    font-weight: bold;
+    text-decoration: none;
+    color: orangered;
+}
+#polja, #polja1, #polja2{
+    background-color: white;
+    margin-left:10%;
+    margin-right: 10%;
+    border: 2px solid white;
+}
+#contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+.sh{
+    text-align: center;
+}
+.sher{
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #f99201;
+    border-radius: 20px;
+    color: #f99201;
+    background-color: black;
+    outline: 2px solid #f99201;
+    margin-bottom: 100px;
+    padding: 10px;
+}
