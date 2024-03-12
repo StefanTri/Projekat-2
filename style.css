@@ -58,13 +58,14 @@ html,body{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
 } /* Formatiranje teksta h1 */
 .header-h11 {
-   color: black;
+    color: black;
     text-align: center;
     margin: 2vw 0;
     text-transform: uppercase;
     font-size: 66px;
     font-weight: 600;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
 } /* Formatiranje teksta h1 */
 .button {
     color: white;
@@ -229,41 +230,36 @@ html,body{
 .ha3{
     opacity: 80%;
 }
-.dugg{
-    text-align: center;
-}
+
 .dugg a{
-    text-align: center;
-    padding: 5px;
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
     border: 2px solid black;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none !important;
 }
 .dugg a:hover{
     background-color: white;
     color: orangered;
 }
 .dugg input{
-    text-align: center;
-    padding: 5px;
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
     border: 2px solid black;
-    border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none !important;
 }
 .dugg input:hover{
-    background-color: white;
-    color: orangered;
-    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    text-decoration: none !important;
 }
 
 .fora{
-   
     color: black;
     border-radius: 30px;
     margin-bottom: 100px;
