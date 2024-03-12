@@ -1,72 +1,7 @@
 function kopija() {
     alert("Uhvacen si da kopiras tekst!");
 }
-function poruka(){
-    alert("Dobro nam dosli!")
-}
-function ispis(x){
-    let raspored1 = [
-        "Od 18:00h – 18:45h Školica sporta i korektivna gimnastika sa elementima tekvondoa (deca od 4 do 6 godina)",
-"Od 19:00h – 20:00h (deca od 7 do 11 godina)",
-"Od 20:15h – 21:15h (deca od 12 do 16 godina)",
-"Od 21:15h – 22:15h ( preko 17 godina)"
-    ];
-    let raspored2 = [
-        "Od 19:00h – 20:15h I grupa",
-"Od 20:30h – 21:45h II grupa"
-    ];
-    let raspored3 = [
-        "Od 09:45h – 11:00h I grupa",
-"Od 11:00h – 12:15h II grupa"
-    ];
-    let raspored4 = [
-        "Za jednu osobu iznosi 3000 dinara.",
-"Za dvoje iz iste porodice 5000 dinara.",
-"Za troje iz iste porodice 6000 dinara.",
-"Dete + roditelj (fitness zona) 4500 dinara.",
-"Fitness zona 1500 dinara.",
-"*Članarina sa plaća do 10-og za tekući mesec."
-    ];
 
-    const polje = document.getElementById("polje");
-    const polje1 = document.getElementById("polje1");
-    const polje2 = document.getElementById("polje2");
-    const polje3 = document.getElementById("polje3");
-
-    let sadrzaj = "";
-    if(x==='raspored1'){
-        sadrzaj+= "<ul>";
-        for(let i=0; i < raspored1.length; i++){
-            sadrzaj += "<li>" + raspored1[i] + "</li>";
-        }
-        sadrzaj+= "</ul>";
-        polje.innerHTML= sadrzaj;
-    }
-    else if(x==='raspored2'){
-        sadrzaj+= "<ul>";
-        for(let i=0; i < raspored2.length; i++){
-            sadrzaj += "<li>" + raspored2[i] + "</li>";
-        }
-        sadrzaj+= "</ul>";
-        polje1.innerHTML= sadrzaj;
-    }
-    else if(x==='raspored3'){
-        sadrzaj+= "<ul>";
-        for(let i=0; i < raspored3.length; i++){
-            sadrzaj += "<li>" + raspored3[i] + "</li>";
-        }
-        sadrzaj+= "</ul>";
-        polje2.innerHTML= sadrzaj;
-    }
-    else if(x==='raspored4'){
-        sadrzaj+= "<ul>";
-        for(let i=0; i < raspored4.length; i++){
-            sadrzaj += "<li>" + raspored4[i] + "</li>";
-        }
-        sadrzaj+= "</ul>";
-        polje3.innerHTML= sadrzaj;
-    }
-}
 
 function tekst(){
     let trener = "Rođen 19.04.1988. godine u Vršcu. Taekwondo-om se bavi od 1999. godine. Nosilac je crnog pojasa 3.DAN. Trenirao je u taekwondo klubu ” Vršac ” iz Vršca, jednom od najuspešnijih klubova u državi. Glavni trener mu je Boris Gorjup, nosilac crnog pojasa 5. DAN, bivši trener juniorske a danas veoma uspešan trener seniorske reprezentacije. Aleksandar Andreevski od 2000. godine aktivno se bavi takmičarskim taekwondo-om. Osvajač je mnogobrojnih medalja u državi i inostranstvu. Višestruki je prvak države u pionirskoj, juniorskoj i seniorskoj konkurenciji i dugogodišnji član reprezentacije.";
