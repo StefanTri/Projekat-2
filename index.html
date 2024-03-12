@@ -40,9 +40,9 @@
             
             <div class="collapse navbar-collapse" id="navMenu"> 
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item jed"><a class="link cr" href="#services">O nama</a></li>
+                <li class="nav-item jed"><a class="link cr" href="#">O nama</a></li>
                 <li class="nav-item jed"><a class="link" href="treninzi.html">Treninzi</a></li>
-                <li class="nav-item jed"><a class="link" href="kontakt.html">Kontakt</a></li>
+                <li class="nav-item jed"><a class="link" href="kontakt.html">Registracija</a></li>
               </ul>
             </div>
           </nav>        
@@ -52,23 +52,23 @@
 			<h1 class="header-h1">Taekwondo klub Gitros</h1>
 			<div class="text-center">
 				<a href="#services">
-					<button type="button" class="button btn btn-link">Saznaj više</button> <!-- Ghost button -->
+					<button type="button" id="scrollButton" class="button btn btn-link">Saznaj više</button> <!-- Ghost button -->
 				</a>
 			</div>
 	
       </header>
-      <section class="services" id="services"> <!-- One-page sajt, koristi services kao u nav meniju da bi klikom na "Services" iz menija automatski prebacio na ovaj deo sajta. -->
+      <section class="services" id="targetElement"> <!-- One-page sajt, koristi services kao u nav meniju da bi klikom na "Services" iz menija automatski prebacio na ovaj deo sajta. -->
         <div class="container">
           <div class="row first-part">
-            <div class="col-lg-8 order-lg-1 order-sm-2 order-2"> <!-- U punoj velicini ce biti prvi element, kad se smanji stavlja se na drugo mesto. Na manjim ekranima slika ide prvo, pa onda tekst. -->
-              <h1 class="services-h1">Trener <b>Aleksandar Andreevski</b></h1>
+            <div class="half-element col-lg-8 order-lg-1 order-sm-2 order-2"> <!-- U punoj velicini ce biti prvi element, kad se smanji stavlja se na drugo mesto. Na manjim ekranima slika ide prvo, pa onda tekst. -->
+              <h1 class="services-h1 ">Trener <b>Aleksandar Andreevski</b></h1>
               <p class="services-description">Rođen 19.04.1988. godine u Vršcu. Taekwondo-om se bavi od 1999. godine. Nosilac je crnog pojasa 3.DAN. Trenirao je u taekwondo klubu ” Vršac ” iz Vršca, jednom od najuspešnijih klubova u državi. Glavni trener mu je Boris Gorjup, nosilac crnog pojasa 5. DAN, bivši trener juniorske a danas veoma uspešan trener seniorske reprezentacije. Aleksandar Andreevski od 2000. godine aktivno se bavi takmičarskim taekwondo-om. Osvajač je mnogobrojnih medalja u državi i inostranstvu. Višestruki je prvak države u pionirskoj, juniorskoj i seniorskoj konkurenciji i dugogodišnji član reprezentacije.</p>
               <p><ul class="services-description"><li>2013. godine je izabran za pomoćnog trenera pionirske reprezentacije Srbije.</li>
                 <li>2015. godine izabran je za jednog od glavnih trenera pionirske reprezentacije Srbije.</li>
                 <li>2016. godine izabran je za glavnog trenera para tekvondo reprezentacije Srbije.</li>
                 <li>2017. završava osnovne akademske studije na fakultetu za sport u Beogradu.</li></ul></p>
             </div>
-            <div class="col-lg-4 order-lg-2 order-sm-1 order-1"> <!-- U punoj velicini stavlja ikonicu na drugo mestu (desna strana), da ovo nije aktivno slika bi bila prva, pa onda tekst. -->
+            <div class="half-element col-lg-4 order-lg-2 order-sm-1 order-1"> <!-- U punoj velicini stavlja ikonicu na drugo mestu (desna strana), da ovo nije aktivno slika bi bila prva, pa onda tekst. -->
               <img src="user-circle.svg" style="opacity: 60%;">
             </div>
           </div>
@@ -76,10 +76,10 @@
         <div style="background-color: #fafafa"> <!-- Boja pozadine u sekciji dva -->
           <div class="container">
             <div class="row second-part">
-              <div class="col-lg-4"> <!-- Na ovom elementu nema order-sm kao na prehodnom, te se slika postavlja prva. -->
+              <div class="half-element col-lg-4"> <!-- Na ovom elementu nema order-sm kao na prehodnom, te se slika postavlja prva. -->
                 <img src="clipboard-text.svg" style="opacity: 60%;">
               </div>
-              <div class="col-lg-8"> <!-- Tekst se postavlja drugi. -->
+              <div class="half-element col-lg-8"> <!-- Tekst se postavlja drugi. -->
                 <h1 class="services-h1">Pravilnik kluba <b>Gitros</b></h1>
                 <p class="services-description">Članovi Taekwondo kluba “Gitros” moraju se pridržavati određenih pravila:</p>
                 <p><ul class="services-description"><li>Uvek pokazivati poštovanje prema trenerima i nosiocima viših pojaseva</li>
@@ -94,6 +94,38 @@
             </div>
           </div>
         </div>
+        <center>
+          <div class="half-element col-lg-8">
+          <h1 class="services-h1"><b>Galerija</b></h1>
+        </div>
+        <div id="demo" class="half-element col-lg-10 carousel slide" data-ride="carousel">
+
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="maxresdefault.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="преузимање(1).jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="преузимање(2).jpg" alt="">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        
+        </div>
+      </center>
+      <br>
       </section>
       <footer>
     <div class="ft">
@@ -108,3 +140,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
+
