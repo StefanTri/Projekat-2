@@ -82,6 +82,12 @@ html,body{
     background-color: orange;
     text-decoration: none !important;
   } /* Ghost Button nakon prelaska kursora */
+
+.half-element {
+
+    opacity: 0; /* Element je inicijalno nevidljiv */
+    transition: opacity 3.7s ease; /* Dodajemo efekat prelaska za glatko pojavljivanje */
+}
   .services-h1 {
 	font-size:60px;
 	color:rgb(34,34,34);
@@ -308,3 +314,4 @@ html,body{
     margin-bottom: 100px;
     padding: 10px;
 }
+
