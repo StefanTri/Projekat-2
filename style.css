@@ -314,10 +314,7 @@ html,body{
     margin-bottom: 100px;
     padding: 10px;
 }
-.nsn {
-    max-width: 100%;
-    height: auto; /* Ovo će automatski očuvati odnos širine i visine */
-}
+
 .nsn img {
     max-width: 100%;
     height: auto; /* Ovo će automatski očuvati odnos širine i visine */
