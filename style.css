@@ -314,10 +314,11 @@ html,body{
     margin-bottom: 100px;
     padding: 10px;
 }
-.nsn img{
-	 max-width: 100%;
+.nsn {
+    max-width: 100%;
     height: auto; 
-.nsn{
-	 max-width: 100%;
+}
+.nsn img {
+    max-width: 100%;
     height: auto; 
 }
