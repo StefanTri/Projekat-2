@@ -314,4 +314,6 @@ html,body{
     margin-bottom: 100px;
     padding: 10px;
 }
-
+.nsn img{
+	width: auto;
+}
