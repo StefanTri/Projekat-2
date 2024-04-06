@@ -315,10 +315,9 @@ html,body{
     padding: 10px;
 }
 .nsn img{
-	width: auto;
-	height: auto;
-}
+	 max-width: 100%;
+    height: auto; 
 .nsn{
-	width: auto;
-	height: auto;
+	 max-width: 100%;
+    height: auto; 
 }
